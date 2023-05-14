@@ -1,2 +1,2 @@
-# SurrogateOptimization
-This repository contains code for optimizing functions subject to uncertainties using surrogate models
+# Formulários em LaTeX 
+Este Repositório contém formulários em LaTeX comumente comumente utilizados na Universidade Estadual de Santa Cruz
