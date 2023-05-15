@@ -1,0 +1,338 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{comment}
+\usepackage{mathtools}
+\usepackage{advdate}
+\usepackage{caption}
+\usepackage{tabu}
+\usepackage{colortbl}
+\usepackage{rotating}
+\usepackage{float}
+\usepackage{tabularx}
+\usepackage[left=2.00cm, right=2.00cm, top=2cm, bottom=3.0cm]{geometry}
+
+%=====================
+% INFORMAÇÕES IMPORTANTES – LEIA ANTES DE INICIAR O PREENCHIMENTO
+% Antes de iniciar o preesnchimento do projeto, consulte o site da propp para verificar se há alguma atualização no modelo de projeto de pesquisa ou nas regras.
+
+%     1) Os projetos devem ser programados para no máximo três (3) anos de execução. Exceção àqueles aprovados com recurso externo que terão seu prazo de execução dentro do estabelecido no termo de outorga/contrato e àqueles que apresentem justificativa específica que será avaliada pela Câmara de Pesquisa (Prazo máximo de 4 anos)
+%     2) Os projetos não devem ultrapassar o valor máximo de R$ 15.000,00
+
+%     3) Só será permitido um coordenador por projeto
+
+%     4) Não são permitidos pagamentos de inscrição, diárias e passagens para congressos, simpósios, workshops, palestras e demais eventos científicos. Existe uma resolução própria para este fim (Resolução CONSEPE 81/2008)
+
+%     5) Não são permitidas solicitações de ressarcimento de combustível para viagens realizadas com carro particular. Viagens relacionadas ao projeto devem ser previstas com carro e motorista da UESC (ver detalhamento abaixo para “Custo com Viagem”)
+            % Custo com viagem:
+                % Custo com viagem = Custo combustível + Diárias de motorista (servidor)
+
+                % A) Custo com combustível:
+                    % Custos com combustível= (Distância (km)/Consumo (km/L)) x Valor do litro (R$)
+                    % Valor do litro de combustível: Consultar CTRAN
+                    % Para o cálculo considerar:
+                        % Ranger/Amarok: 10 km/L
+                        % Carro de Passeio: % 10  km/L
+                        % Consultar CTRAN
+                        % Ônibus: % 3 km/L
+                    % *Os  valores do litro são sempre atualizados de acordo com a Tabela ANP e realizada uma média por estado
+
+                % B) Diárias servidor, consultar: http://propp.uesc.br/propp/arquivos/diariasserv.pdf
+
+%     6) Solicitação de material de escritório (papel, caneta, lápis e similares) devem ser realizados no SCP (http://alfa/udo/scp/controleprocessos/login.asp) diretamente na fonte de recurso: UESC e não devem ser incluídos como item do projeto de pesquisa
+
+%     7) Não são permitidas diárias para pessoas externas à UESC. São permitidas apenas solicitações de passagens aéreas e hospedagem no hotel com convênio com a UESC, desde que previstas no projeto ao qual o docente esteja vinculado
+
+%     8) Passagens aéreas devem ser solicitadas com, no mínimo, 15 dias de antecedência 
+
+%     9) Os itens de material de consumo e permanente devem ser detalhados para controle interno na PROPP
+
+%     10) Material de consumo e material permanente devem ser solicitados no SCP (http://alfa/udo/scp/controleprocessos/login.asp) utilizando como Fonte de Recurso:  Projeto de Pesquisa
+
+\begin{document}
+
+%--------------------------------Rodapé------------------------------------
+\pagestyle{fancy}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt} % Remove a linha horizontal abaixo do cabeçalho
+\cfoot{\scriptsize \includegraphics[scale=0.05]{uesct}\\
+		\underline{UNIVERSIDADE ESTADUAL DE SANTA CRUZ – UESC}\\
+	Campus Prof. Soane Nazaré de Andrade – Rodovia Jorge Amado, Km 16\\
+	Tel: Reitoria (73) 3680-5311 – Fax: (73) 3689-1126\\
+	CEP: 45.662-900 – Ilhéus – Bahia – Brasil\\
+	E-mail: reitoria@uesc.br}
+%-------------------------------------------------------------------------
+
+\onehalfspacing
+
+\vfill
+
+\begin{center}
+	%Modelo de Projeto de Pesquisa
+
+    \includegraphics[scale=0.1]{uesct}
+
+    UNIVERSIDADE ESTADUAL DE SANTA CRUZ
+
+    PRÓ-REITORIA DE PESQUISA E PÓS-GRADUAÇÃO - PROPP 
+
+    \vfill
+
+    TÍTULO DO PROJETO
+
+    \vfill
+\end{center}
+
+Coordenador/E-mail:
+
+Autor(es)/E-mail:
+
+Equipe/E-mail:
+
+Área de Conhecimento/Cnpq:
+
+Tempo de Execução:
+
+Local de Execução:
+
+\vfill
+
+\begin{center}
+    Ilhéus, \today.
+\end{center}
+
+\newpage
+
+\textbf{Resumo:}
+
+Apresentar resumo do projeto de até 250 palavras, descrevendo de forma concisa, clara e objetiva os pontos relevantes do trabalho. Sugere-se incluir elementos que auxiliem o leitor a compreender os detalhes fundamentais e a abrangência do projeto.
+
+\vfill
+
+\textbf{Palavras-chave:} Palavra-chave 1, Palavra-chave 2, Palavra-chave 3, Palavra-chave 4, Palavra-chave 5.
+
+\vfill
+
+\textbf{Introdução}
+
+Apresentar de forma clara o tema ou objeto de estudo\cite{gil2010}, fornecendo uma visão geral da pesquisa a ser realizada. Incluir um breve histórico sobre o tema de estudo (limite máximo de 500 palavras).
+
+\vfill
+
+\textbf{Objetivos}
+
+Descrever de forma clara e concisa os objetivos propostos.  Eles devem ser realistas diante dos meios e métodos disponíveis, e manter coerência com o problema descrito no projeto
+
+\vfill
+
+\textbf{Justificativas}
+
+Apresentar as razões de ordem teórica e, ou prática que justificam a pesquisa. Nessa parte o pesquisador trata da relevância ou importância e oportunidade da pesquisa.
+
+\vfill
+
+\textbf{Revisão da Literatura}
+
+Informar sobre o estágio atual das pesquisas que envolvem o problema a ser estudado e os aspectos que ainda não foram estudados ou de resultados que necessitam de complementação ou confirmação. Esta revisão não é apenas uma seqüência impessoal de trabalhos já realizados, mas deve incluir a contribuição do autor, demonstrando que os trabalhos foram lidos e criticados (limite máximo de 500 palavras)
+
+Obs: Caso o autor do projeto queira desenvolver conjuntamente a revisão de literatura na parte da introdução deverá obedecer o limite máximo de 1000 palavras.
+
+\vfill
+
+\textbf{Metodologia ou Material e Métodos}
+
+Especificar a metodologia a ser adotada. Descrever o delineamento da pesquisa (bibliográfica, experimental, estudo de caso, dentre outras). Definir o plano de amostragem (tipo, tamanho, formas de composição da amostra), coleta de dados (questionários, formulários, etc.), análise dos dados, etc. Apresentar em seqüência cronológica a realização do trabalho, permitindo a compreensão e interpretação dos resultados (limite máximo de 1000 palavras). 
+
+\vfill
+
+\textbf{Viabilidade}:
+
+Descrever de forma clara e sucinta os elementos (infraestrutura, recursos humanos, recursos complementares,etc) que tornam possível a execução do projeto 
+
+\vfill
+\textbf{Resultados/Produtos Esperados}
+
+Descrever os resultados (impactos) e produtos esperados.
+
+\vfill
+
+\textbf{EQUIPE E PLANO DE ATIVIDADE DE CADA COMPONENTE:}
+
+Inserir os seguintes dados de cada participante:
+
+Nome, CPF, Titulação, Instituição, Departamento/Laboratório, Dedicação ao Projeto (h/semana), Atividades no projeto.
+
+\bibliography{reference}
+\bibliographystyle{apalike}
+
+% Definir uma nova cor personalizada
+\definecolor{minhacor}{RGB}{200,50,0}
+
+% Criar um comando personalizado
+\newcommand{\ccell}[1]{\cellcolor{minhacor}#1~}
+\clearpage
+\resizebox{\linewidth}{!}{%
+\begin{tabu}{llll}
+    \multicolumn{4}{l}{\textsc{\textbf{CRONOGRAMA DE ATIVIDADES - \the\year }}} \\%(discriminar por ano)
+    1 & Definição do problema                       & 7  & Implementação dos algoritmos  \\
+    2 & Revisão Bibliográfica                       & 8  & Realização de experimentos e análise dos resultados \\
+    3 & Formulação dos objetivos                    & 9  & Análise comparativa dos resultados obtidos \\
+    4 & Coleta e preparação dos dados necessários   & 10 & Identificação de soluções  \\
+    5 & Escolha e adaptação dos métodos             & 11 & Interpretação dos resultados e conclusões \\
+    6 & Implementação das métricas de avaliação     & 12 & Elaboração e submissão de artigo para periódico indexado \\
+\end{tabu}
+}
+\vfill
+\begin{table}[h!]
+    \centering
+    \caption{Cronograma de Atividades - Ano 1}
+    \resizebox{\linewidth}{!}{%
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+        \hline
+        \multirow{2}{*}{Atividades} & \multicolumn{12}{c|}{\the\year}  \\
+        \cline{2-13}
+            & Mês 1 & Mês 2 & Mês 3 & Mês 4 & Mês 5 & Mês 6 & Mês 7 & Mês 8 & Mês 9 & Mês 10 & Mês 11 & Mês 12     \\
+        \hline\hline
+        1   & \ccell{} &     &     &     &     &     &     &     &     &     &     &     \\
+        \hline
+        2   &     & \ccell{} &     &     &     &     &     &     &     &     &     &     \\
+        \hline
+        3   &     &     & \ccell{} &     &     &     &     &     &     &     &     &     \\
+        \hline
+        4   &     &     &     & \ccell{} &     &     &     &     &     &     &     &     \\
+        \hline
+        5   &     &     &     &     & \ccell{} &     &     &     &     &     &     &     \\
+        \hline
+        6   &     &     &     &     &     & \ccell{} &     &     &     &     &     &     \\
+        \hline
+        7   &     &     &     &     &     &     & \ccell{} &     &     &     &     &     \\
+        \hline
+        8   &     &     &     &     &     &     &     & \ccell{} &     &     &     &     \\
+        \hline
+        9   &     &     &     &     &     &     &     &     & \ccell{} &     &     &     \\
+        \hline
+        10  &     &     &     &     &     &     &     &     &     & \ccell{} &     &     \\
+        \hline
+        11  &     &     &     &     &     &     &     &     &     &     & \ccell{} &     \\
+        \hline
+        12  &     &     &     &     &     &     &     &     &     &     &     & \ccell{} \\
+        \hline
+    \end{tabular}}
+\end{table}
+\vfill
+
+\AdvanceDate[365] % Avança um ano para obter o ano seguinte
+\resizebox{\linewidth}{!}{%
+\begin{tabu}{llll}
+    \multicolumn{4}{l}{\textsc{\textbf{CRONOGRAMA DE ATIVIDADES - \the\year }}} \\%(discriminar por ano)
+    1 & Definição do problema                       & 7  & Implementação dos algoritmos  \\
+    2 & Revisão Bibliográfica                       & 8  & Realização de experimentos e análise dos resultados \\
+    3 & Formulação dos objetivos                    & 9  & Análise comparativa dos resultados obtidos \\
+    4 & Coleta e preparação dos dados necessários   & 10 & Identificação de soluções  \\
+    5 & Escolha e adaptação dos métodos             & 11 & Interpretação dos resultados e conclusões \\
+    6 & Implementação das métricas de avaliação     & 12 & Elaboração e submissão de artigo para periódico indexado \\
+\end{tabu}
+}
+\vfill
+\begin{table}[h!]
+    \centering
+    \caption{Cronograma de Atividades - Ano 2}
+    \resizebox{\linewidth}{!}{%
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+        \hline
+        \multirow{2}{*}{Atividades} & \multicolumn{12}{c|}{\the\year}  \\
+        \cline{2-13}
+            & Mês 1 & Mês 2 & Mês 3 & Mês 4 & Mês 5 & Mês 6 & Mês 7 & Mês 8 & Mês 9 & Mês 10 & Mês 11 & Mês 12     \\
+        \hline\hline
+        1   & \ccell{} &     &     &     &     &     &     &     &     &     &     &     \\
+        \hline
+        2   &     & \ccell{} &     &     &     &     &     &     &     &     &     &     \\
+        \hline
+        3   &     &     & \ccell{} &     &     &     &     &     &     &     &     &     \\
+        \hline
+        4   &     &     &     & \ccell{} &     &     &     &     &     &     &     &     \\
+        \hline
+        5   &     &     &     &     & \ccell{} &     &     &     &     &     &     &     \\
+        \hline
+        6   &     &     &     &     &     & \ccell{} &     &     &     &     &     &     \\
+        \hline
+        7   &     &     &     &     &     &     & \ccell{} &     &     &     &     &     \\
+        \hline
+        8   &     &     &     &     &     &     &     & \ccell{} &     &     &     &     \\
+        \hline
+        9   &     &     &     &     &     &     &     &     & \ccell{} &     &     &     \\
+        \hline
+        10  &     &     &     &     &     &     &     &     &     & \ccell{} &     &     \\
+        \hline
+        11  &     &     &     &     &     &     &     &     &     &     & \ccell{} &     \\
+        \hline
+        12  &     &     &     &     &     &     &     &     &     &     &     & \ccell{} \\
+        \hline
+    \end{tabular}}
+\end{table}
+\vfill
+\newcommand{\mycomment}[1]{\iffalse #1 \fi}
+\clearpage
+\begin{table}[h!]
+    \centering
+    \caption{ORÇAMENTO RESUMIDO – RECURSOS FINANCEIROS \\  
+    Valor máximo - R\$ 15.000,00}
+    \resizebox{\linewidth}{!}{%
+    \begin{tabular}{|p{6cm}|c|c|c|}
+    \hline
+    \textbf{DESCRIÇÃO} & \textbf{QTD} & \textbf{VALOR UNIT (R\$)} & \textbf{VALOR TOTAL (R\$)} \\
+    \hline\hline
+    \textbf{MATERIAL DE CONSUMO} \mycomment{Inserir quantas linhas forem necessárias – especificar detalhadamente item por item} & & & \\
+    \hline
+    \textbf{MATERIAL PERMANENTE} \mycomment{Inserir quantas linhas forem necessárias – especificar detalhadamente item por item} & & & \\
+    \hline
+    \textbf{DIÁRIAS DOCENTE} \mycomment{Inserir quantas linhas forem necessárias} & & & \\
+    \hline
+    \textbf{AJUDA DE CUSTO DISCENTE} \mycomment{Inserir quantas linhas forem necessárias} & & &  \\
+    \hline
+    \textbf{CUSTO COM VIAGEM COM CARRO DA UESC} \mycomment{Diária de motorista/servidor + Combustível} & & &  \\
+    \hline
+    \textbf{PASSAGEM AÉREA} \mycomment{Inserir quantas linhas forem necessárias - Especificar trecho} & & & \\
+    \hline
+    \textbf{PASSAGEM TERRESTRE} \mycomment{Inserir quantas linhas forem necessárias - Especificar trecho} & & &  \\
+    \hline
+    \textbf{SERVICOS DE TERCEIRO PESSOA FÍSICA} \mycomment{Inserir quantas linhas forem necessárias} & & &  \\
+    \hline
+    \textbf{SERVIÇOS DE TERCEIRO PESSOA JURÍDICA} \mycomment{Inserir quantas linhas forem necessárias} & & &  \\
+    \hline
+    \textbf{TOTAL} & & &  \\
+    \hline
+    \end{tabular}}
+\end{table}
+    
+\AdvanceDate[-365]
+\today
+
+\vspace{2cm} 
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\newcommand{\signatureline}[2][\linewidth]{%
+    \begin{tabularx}{#1}{@{}Y@{}}
+    \hrulefill \\
+    \textbf{#2} \\
+    \end{tabularx}
+}
+\begin{center}
+    \signatureline[0.5\linewidth]{Nome do Coordenador}
+
+\vspace{2cm} 
+
+    \signatureline[0.5\linewidth]{Nome do Diretor do Departamento}
+
+\end{center}
+
+\end{document}
