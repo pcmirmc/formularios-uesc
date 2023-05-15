@@ -1,0 +1,123 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% See http://www-math.mit.edu/~psh/#ExamCls for full documentation, but the questions
+% below give an idea of how to write questions [with parts] and have the points
+% tracked automatically on the cover page.
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt]{exam}
+\usepackage{amssymb, amsfonts, amsmath, latexsym, verbatim, xspace, setspace}
+\usepackage[margin=1in]{geometry}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\pointname{Pontos}
+
+\DeclareMathOperator{\sen}{sen}
+\DeclareMathOperator{\arcsen}{arcsen}
+
+\newcommand{\class}{Cálc. Dif. e Integral III}
+\newcommand{\term}{2023.2}
+\newcommand{\examnum}{Prova I}
+\newcommand{\examdate}{13/09/2023 - 2023.2}
+\newcommand{\timelimit}{100 Minutos}
+
+\singlespacing
+\parindent 0ex
+%============================================================================================================
+\begin{document} 
+
+\pagestyle{head}
+\firstpageheader{}{}{}
+\runningheader{\class}{\examnum\ - Página \thepage\ de \numpages}{\examdate}
+\runningheadrule
+
+\begin{center}
+  \begin{minipage}{2.5cm}
+    \includegraphics[width=1.5cm]{uesct}
+  \end{minipage}
+\end{center}
+
+\begin{minipage}[b]{1.65\linewidth}
+  \begin{tabular}{c}
+    \hline \hline
+    {\bf UNIVERSIDADE ESTADUAL DE SANTA CRUZ} \\
+    {\bf DEPARTAMENTO DE CIÊNCIAS EXATAS - DCEX} \\
+    {\bf Cálculo Diferencial e Integral III} \\
+    {\bf Prova } \\
+    \\
+    \hline
+    {\small \textbf{Início: 07:30}} \hfill {\small \textbf{Término: 09:10} } \\
+    \hline
+    {\small \textbf{Professor:} Fulano de Tal} \hfill 13 de Setembro de 2023 \\
+    \hline
+    {\small \textbf{Aluno(a):}} \hspace{10.0cm} \textbf{Matrícula:} \hspace{2.3cm} \\
+    \hline
+  \end{tabular}
+\end{minipage} \hfill
+
+\vspace{1cm}
+
+Este exame contém \numpages\ páginas (incluindo a capa) e \numquestions\ questão(ões). Verifique se falta alguma página. 
+Você precisa mostrar seus conhecimentos em cada problema deste exame. As seguintes regras se aplicam:\\
+
+\begin{minipage}[t]{3.7in}
+  \vspace{0pt}
+  \begin{itemize}
+    \item Pontuação máxima a ser obtida é de 10(dez) pontos.
+    \item \textbf{Se você usar um ``Teorema Fundamental" você deve indicar isto} e explicar por quê o teorema pode ser aplicado;
+
+    \item \textbf{Organize seu trabalho} de forma razoavelmente limpa e coerente. Questões sem ordem clara de ideias perderão pontuação.
+
+    \item Lembre-se que o objetivo nesta avaliação é analisar sua forma de argumentação e escrita, o seu raciocínio. Não tente ``enrolar".
+
+    \item \textbf{Respostas misteriosas ou sem justificativa não receberão pontuação completa}. Resposta correta, não justificada por cálculos, explicações ou trabalho algébrico não receberá pontuação; Respostas incorretas, justificadas por cálculos corretos, podem ainda receber pontuação.
+
+    \item Prazo final é prazo final. Avaliações entregues após o horário limite não receberão pontuação.
+
+  \end{itemize}
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{2.3in}
+  \vspace{0pt}
+  \gradetablestretch{2}
+  \vqword{Questão}
+  \vpword{Pontos}
+  \addpoints
+  \gradetable[v]
+\end{minipage}
+
+\newpage 
+
+Considerando os dígitos do seu número de \textbf{matrícula 20xyzw\textcolor{blue}{\textbf{abc}}, e tomando os três últimos dígitos(abc)}, responda às questões  abaixo:
+
+\begin{questions}
+  \large
+  \addpoints
+
+  \question[2\half] A região delimitada pelo gráfico da função $f$ e o eixo $x$ gira em torno da reta r . Calcule o volume do sólido obtido.
+
+  (Dados da questão:\url{https://www.geogebra.org/classic/mdn6anqn} )
+  \vfill
+
+  \question[2\half] Utilizando integrais duplas, calcule o volume do sólido que está acima do plano xy, cuja base é a região entre a reta $y=(\frac{a}{3}-2)x$ e a parábola $y=x^2-4x$  e o topo é o plano $f(x,y)=-x-y+6$.
+
+  \vfill
+
+  \question[2\half] Inverta a ordem de integração da questão anterior.\textit{(\textbf{Não} é necessário recalcular a integral).}
+  \vfill
+
+  \question[2\half] O sólido situa-se entre os planos perpendiculares ao eixo x em $x=b+1$ e $x=-b-1$. As seções transversais são \textbf{triângulos equiláteros} perpendiculares ao plano xy, cujas bases são paralelas ao eixo y, e vão da borda inferior a superior da circunferência $$x^2+y^2=(c+b+1)^2$$ Determine o volume do sólido.
+
+  \vfill
+
+\end{questions}
+
+\end{document}
